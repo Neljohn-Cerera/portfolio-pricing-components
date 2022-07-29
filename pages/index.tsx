@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import PricingOne from "../src/components/pricing/pricing-one";
+import PricingTwo from "../src/components/pricing/pricing-two";
 
 const Home: NextPage = () => {
   return (
@@ -12,6 +13,7 @@ const Home: NextPage = () => {
       </Head>
 
       <PricingOne />
+      <PricingTwo />
     </div>
   );
 };

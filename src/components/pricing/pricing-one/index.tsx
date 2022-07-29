@@ -4,7 +4,7 @@ import Pricing from "./pricing";
 const PricingOne = () => {
   return (
     <div className="mb-12 p-4 bg-gray-50">
-      <h3 className="text-xl font-normal tracking-wide">STORAGE PRICING</h3>
+      <h3 className="text-xl font-normal tracking-wide">DESIGN 1</h3>
       <div className="flex flex-col justify-center items-center ">
         <h4 className="text-base font-medium mb-8">Our Pricing</h4>
         <div className="flex mb-8">
