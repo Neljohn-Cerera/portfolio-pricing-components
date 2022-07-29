@@ -19,6 +19,8 @@ const PricingTwo = () => {
             bgColor="bg-gradient-to-r from-blue-400 to-blue-700 hover:from-blue-900 hover:to-blue-900"
             p3Minus
             p4Minus
+            percentOff="10"
+            percentOffBG="bg-blue-700"
           />
           <Pricing
             title="STANDARD"
@@ -32,6 +34,8 @@ const PricingTwo = () => {
             bgColor="bg-gradient-to-r from-pink-400 to-pink-700 hover:from-pink-900 hover:to-pink-900"
             p3Minus={false}
             p4Minus
+            percentOff="50"
+            percentOffBG="bg-pink-700"
           />
           <Pricing
             title="PREMIUM"
@@ -45,6 +49,8 @@ const PricingTwo = () => {
             bgColor="bg-gradient-to-r from-blue-400 to-blue-700 hover:from-blue-900 hover:to-blue-900"
             p3Minus={false}
             p4Minus={false}
+            percentOff="20"
+            percentOffBG="bg-blue-700"
           />
         </div>
       </div>

@@ -14,6 +14,8 @@ type Props = {
   bgColor: string;
   p3Minus: boolean;
   p4Minus: boolean;
+  percentOff: string;
+  percentOffBG: string;
 };
 
 const Pricing = ({
@@ -28,6 +30,8 @@ const Pricing = ({
   bgColor,
   p3Minus,
   p4Minus,
+  percentOff,
+  percentOffBG,
 }: Props) => {
   return (
     <div
@@ -36,7 +40,16 @@ const Pricing = ({
         height
       )}
     >
-      <div className="relative h-20 flex flex-col justify-center items-center shadow-lg">
+      <div className="overflow-hidden relative h-20 flex flex-col justify-center items-center shadow-lg">
+        <div
+          className={classnames(
+            "py-2 text-white text-center w-[150px] absolute",
+            "top-[70px] -left-[30px] origin-top-left -rotate-45",
+            percentOffBG
+          )}
+        >
+          {percentOff} % OFF
+        </div>
         <h3 className="tracking-[0.2rem] font-black text-xl">{title}</h3>
         <h4 className="tracking-[0.1rem] font-semibold text-xs">PACKAGE</h4>
         <div
