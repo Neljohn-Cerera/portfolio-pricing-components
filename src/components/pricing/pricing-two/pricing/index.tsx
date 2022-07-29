@@ -147,7 +147,7 @@ const Pricing = ({
             bgColor
           )}
         >
-          Buy Now
+          Subscribe
         </button>
       </div>
     </div>
