@@ -7,7 +7,7 @@ export default function Layout({ children }: { children: ReactElement }) {
     <div className="w-full h-full">
       <Navbar />
       <main className="flex flex-col">{children}</main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
