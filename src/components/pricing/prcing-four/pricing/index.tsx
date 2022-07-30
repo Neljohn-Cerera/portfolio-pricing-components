@@ -63,7 +63,9 @@ const Pricing = ({
         justify-center items-start 
          bg-white border-[1px] border-r-gray-300 border-t-gray-300"
         >
-          <h3 className="font-semibold text-base">Feature "Fermentum Leo"</h3>
+          <h3 className="font-semibold text-base">
+            Feature &apos;Fermentum Leo&apos;
+          </h3>
           <p className="text-justify font-normal text-sm">
             Diam ut venenatis tellus in metus vulputate eu scelerisque felis
             imperdiet proin fermentum leo vel orci.
@@ -81,7 +83,9 @@ const Pricing = ({
         justify-center items-start 
          bg-gray-100 border-[1px] border-r-gray-300 border-t-gray-300"
         >
-          <h3 className="font-semibold text-base">Feature "Sagittis Purus"</h3>
+          <h3 className="font-semibold text-base">
+            Feature &apos;Sagittis Purus&apos;
+          </h3>
           <p className="text-justify font-normal text-sm">
             Platea dictumst quisque sagittis purus sit amet volutpat consequat
             mauris nunc congue nisi vitae suscipit tellus.
@@ -99,7 +103,9 @@ const Pricing = ({
         justify-center items-start 
          bg-white border-[1px] border-r-gray-300 border-t-gray-300"
         >
-          <h3 className="font-semibold text-base">Feature "Mattis Enim"</h3>
+          <h3 className="font-semibold text-base">
+            Feature &apos;Mattis Enim&apos;
+          </h3>
           <p className="text-justify font-normal text-sm">
             Blandit massa enim nec dui nunc mattis enim ut tellus elementum
             sagittis vitae et leo duis.
@@ -125,7 +131,9 @@ const Pricing = ({
         justify-center items-start 
          bg-gray-100 border-[1px] border-r-gray-300 border-t-gray-300"
         >
-          <h3 className="font-semibold text-base">Feature "Egestas Erat"</h3>
+          <h3 className="font-semibold text-base">
+            Feature &apos;Egestas Erat&apos;
+          </h3>
           <p className="text-justify font-normal text-sm">
             Ut ornare lectus sit amet est placerat in egestas erat imperdiet sed
             euismod nisi porta lorem.
@@ -146,7 +154,7 @@ const Pricing = ({
          bg-white border-[1px] border-r-gray-300 border-t-gray-300"
         >
           <h3 className="font-semibold text-base">
-            Feature "Elementum Integer"
+            Feature &apos;Elementum Integer&apos;
           </h3>
           <p className="text-justify font-normal text-sm">
             Consectetur purus ut faucibus pulvinar elementum integer enim neque
